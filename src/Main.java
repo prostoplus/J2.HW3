@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Map;
+
 public class Main {
 
     public static int calcWord(ArrayList<String> arrList, String word) {
@@ -7,23 +11,23 @@ public class Main {
     public static void main(String[] args) {
 
         ArrayList<String> wordList = new ArrayList<>();
-        wordList.add("умаять");
-        wordList.add("подвздошный");
+        wordList.add("картина");
+        wordList.add("машина");
         wordList.add("разъясняться");
         wordList.add("лечить");
         wordList.add("лечить");
-        wordList.add("фарцовщица");
+        wordList.add("фармовщица");
         wordList.add("гудронный");
         wordList.add("петербуржец");
         wordList.add("безалкогольный");
-        wordList.add("фарцовщица");
+        wordList.add("фармовщица");
         wordList.add("прилипало");
         wordList.add("притворство");
-        wordList.add("умаять");
+        wordList.add("картина");
         wordList.add("гудронный");
         wordList.add("раскислый");
         wordList.add("танцор");
-        wordList.add("окказионалист");
+        wordList.add("должность");
         wordList.add("притворство");
         wordList.add("умелица");
         wordList.add("гудронный");
